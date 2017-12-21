@@ -1,8 +1,8 @@
-
-/* http://meyerweb.com/eric/tools/css/reset/
-v2.0 | 20110126
-License: none (public domain)
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
 */
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -12,112 +12,80 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
- margin: 0;
- padding: 0;
- border: 0;
- font-size: 100%;
- font: inherit;
- vertical-align: baseline;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
-
-article, aside, details, figcaption, figure,
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
- display: block;
+	display: block;
 }
 body {
- line-height: 1;
+	line-height: 1;
 }
 ol, ul {
- list-style: none;
+	list-style: none;
 }
 blockquote, q {
- quotes: none;
+	quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
- content: '';
- content: none;
+	content: '';
+	content: none;
 }
 table {
- border-collapse: collapse;
- border-spacing: 0;
-}
-/*============================================================================================*/
-
-.col-1 {width: 8.334%}
-.col-2 {width: 16.667%}
-.col-3 {width: 25%}
-.col-4 {width: 33.334%}
-.col-5 {width: 41.667%}
-.col-6 {width: 50%}
-.col-7 {width: 58.334%}
-.col-8 {width: 66.667%}
-.col-9 {width: 75%}
-.col-10 {width: 83.334%}
-.col-11 {width: 91.667%}
-.col-12 {width: 100%}
-* {
-    box-sizing: border-box;
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
-.header {
-    background-color: #3C5A99;
-    background-size: cover;   
-}
+/*===================================================================*/
+
 body {
-    background-color: #D6DADC;
+	margin: 0 auto;
+	background-color:rgb(244, 244, 248);
+}
+.navbar {
+	background-color:#3B5998;
+}
+.buttonFirst{
+	font-size: 24px;
 }
 .board {
-    background-color: #D9D9D9;
-}
-.column-container {
-	margin: 0 auto;
-}
-.column {
-    display: inline-block;
-    height: 200px;
-    text-align: center;
-}
-.create-column {
-    background-color: #4285F4;
-    color :white;
-    border-radius: 8px;
-    padding: 6px 12px;
-    font-size: 16px;
-    margin-bottom: 5px;  
-}
-.btn-delete {
-    background-color: #f44336;
-    color : black;
-    border-radius: 4px;
-    padding: 5px 8px;
-    font-size: 16px;
-}
-.add-card {
-    background-color: #CDD2D4;
-    color : black;
-    border-radius: 4px;
-    padding: 5px 8px;
-    font-size: 16px;
+	padding-top: 100px;
 }
 h1 {
-    font-family: Arial, sans-serif;
-    font-size: 35px;
-    font-weight: 700;
-    color: white;
-    padding: 20px;
+	color: white;
+	font-size:36px;
+	padding: 5px;
 }
-.head1 {
-    display: inline-block;
-    color: black;
+.col-md-4 {
+	background-color: lightgray;
+	width: 375px;
+ 	margin: 2px 2px 2px 0;
 }
-h2 {
-    font-family: Arial, sans-serif;
-    font-size: 25px; 
-    padding: 10px;
-    font-weight: 700;
+.column-title{
+	color: black;
+	font-weight: 800;
+	font-size: 36px;
+	padding: 10px;	
+}
+.add-card {
+	margin: 5px;
+}
+.column-card-list {
+	padding: 10px;
+}
+.card-description {
+	font-weight: 800;
+	font-size: 20px;
+	padding-bottom: 10px;
 }
